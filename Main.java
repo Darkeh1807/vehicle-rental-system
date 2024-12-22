@@ -13,7 +13,7 @@ public class Main {
         agency.addVehicle(motorcycle);
 
         // Create a customer
-        Customer customer = new Customer("CUST001", "Joy");
+        Customer customer = new Customer("CUST001", "My name");
 
         // Process rentals
         agency.processRental(car, customer, 3);
